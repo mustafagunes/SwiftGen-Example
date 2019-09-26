@@ -1,0 +1,11 @@
+strings:
+    inputs: SwiftGen-Example/Base.lproj
+    filter: .+\.strings$
+    outputs:
+        - templateName: structured-swift4
+          output: SwiftGen-Example/SwiftGen/strings.swift
+xcassets:
+    inputs: SwiftGen-Example/Assets.xcassets
+    outputs:
+    - templateName: swift4
+      output: SwiftGen-Example/SwiftGen/assets.swift

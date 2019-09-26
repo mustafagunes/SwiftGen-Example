@@ -1,0 +1,9 @@
+/* 
+  Localizable.strings
+  SwiftGen-Example
+
+  Created by Mustafa GUNES on 26.09.2019.
+  Copyright © 2019 Mustafa GUNES. All rights reserved.
+*/
+
+"HomeVC.Welcome.Title" = "Hello World!";

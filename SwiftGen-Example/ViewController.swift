@@ -10,11 +10,14 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var titleLabel: UILabel!
+    @IBOutlet weak var imageView: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        titleLabel.text = L10n.HomeVC.Welcome.title
+        titleLabel.textColor = Asset.Colors.khakiGreen.color
+        imageView.image = Asset.Image.image.image
     }
-
-
 }
 
