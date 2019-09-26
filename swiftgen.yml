@@ -15,3 +15,12 @@ colors:
     outputs:
         templateName: swift4
         output: SwiftGen-Example/SwiftGen/Colors.swift
+
+ib:
+    - inputs: SwiftGen-Example/
+      filter: .+\.storyboard$
+      outputs:
+      - templateName: scenes-swift4
+        output: SwiftGen-Example/SwiftGen/Scenes.swift
+      - templateName: segues-swift4
+        output: SwiftGen-Example/SwiftGen/Segues.swift

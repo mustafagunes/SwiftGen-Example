@@ -20,5 +20,10 @@ class ViewController: UIViewController {
         titleLabel.textColor = ColorName.firstColor.color
         imageView.image = Asset.Image.image.image
     }
+    
+    
+    @IBAction func showAuthTapped(_ sender: Any) {
+        perform(segue: StoryboardSegue.Main.showAuthStoryboard)
+    }
 }
 
