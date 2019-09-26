@@ -15,9 +15,9 @@ internal enum StoryboardScene {
   internal enum Auth: StoryboardType {
     internal static let storyboardName = "Auth"
 
-    internal static let initialScene = InitialSceneType<LoginVC>(storyboard: Auth.self)
+    internal static let initialScene = InitialSceneType<SwiftGen_Example.LoginVC>(storyboard: Auth.self)
 
-    internal static let loginVC = SceneType<LoginVC>(storyboard: Auth.self, identifier: "LoginVC")
+    internal static let loginVC = SceneType<SwiftGen_Example.LoginVC>(storyboard: Auth.self, identifier: "LoginVC")
   }
   internal enum Home: StoryboardType {
     internal static let storyboardName = "Home"
@@ -30,9 +30,9 @@ internal enum StoryboardScene {
   internal enum Main: StoryboardType {
     internal static let storyboardName = "Main"
 
-    internal static let initialScene = InitialSceneType<ViewController>(storyboard: Main.self)
+    internal static let initialScene = InitialSceneType<UIKit.UINavigationController>(storyboard: Main.self)
 
-    internal static let viewController = SceneType<ViewController>(storyboard: Main.self, identifier: "ViewController")
+    internal static let viewController = SceneType<SwiftGen_Example.ViewController>(storyboard: Main.self, identifier: "ViewController")
   }
   internal enum Profile: StoryboardType {
     internal static let storyboardName = "Profile"

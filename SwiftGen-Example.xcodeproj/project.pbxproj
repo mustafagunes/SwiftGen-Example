@@ -13,8 +13,6 @@
 		D9EC3DB3233C8F4A00CF7646 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9EC3DB2233C8F4A00CF7646 /* Assets.xcassets */; };
 		D9EC3DB6233C8F4A00CF7646 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9EC3DB4233C8F4A00CF7646 /* LaunchScreen.storyboard */; };
 		D9EC3DC1233C913C00CF7646 /* swiftgen.yml in Sources */ = {isa = PBXBuildFile; fileRef = D9EC3DC0233C913C00CF7646 /* swiftgen.yml */; };
-		D9EC3DC4233C91A000CF7646 /* strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EC3DC2233C91A000CF7646 /* strings.swift */; };
-		D9EC3DC5233C91A000CF7646 /* assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EC3DC3233C91A000CF7646 /* assets.swift */; };
 		D9EC3DCA233C92AF00CF7646 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D9EC3DC8233C92AF00CF7646 /* Localizable.strings */; };
 		D9EC3DCD233CA6E900CF7646 /* colors.txt in Resources */ = {isa = PBXBuildFile; fileRef = D9EC3DCC233CA6E900CF7646 /* colors.txt */; };
 		D9EC3DCF233CA7D700CF7646 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EC3DCE233CA7D700CF7646 /* Colors.swift */; };
@@ -25,6 +23,8 @@
 		D9EC3DDE233CEB7900CF7646 /* Auth.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9EC3DDD233CEB7900CF7646 /* Auth.storyboard */; };
 		D9EC3DE2233CEC9500CF7646 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EC3DE1233CEC9500CF7646 /* LoginVC.swift */; };
 		D9EC3DE4233CECBD00CF7646 /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EC3DE3233CECBD00CF7646 /* RegisterVC.swift */; };
+		D9EC3DE7233D078100CF7646 /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EC3DE5233D078100CF7646 /* Assets.swift */; };
+		D9EC3DE8233D078100CF7646 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EC3DE6233D078100CF7646 /* Strings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,8 +36,6 @@
 		D9EC3DB5233C8F4A00CF7646 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D9EC3DB7233C8F4A00CF7646 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D9EC3DC0233C913C00CF7646 /* swiftgen.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = swiftgen.yml; sourceTree = "<group>"; };
-		D9EC3DC2233C91A000CF7646 /* strings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = strings.swift; sourceTree = "<group>"; };
-		D9EC3DC3233C91A000CF7646 /* assets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = assets.swift; sourceTree = "<group>"; };
 		D9EC3DC9233C92AF00CF7646 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
 		D9EC3DCB233C941800CF7646 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Localizable.strings; sourceTree = "<group>"; };
 		D9EC3DCC233CA6E900CF7646 /* colors.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = colors.txt; sourceTree = "<group>"; };
@@ -49,6 +47,8 @@
 		D9EC3DDD233CEB7900CF7646 /* Auth.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Auth.storyboard; sourceTree = "<group>"; };
 		D9EC3DE1233CEC9500CF7646 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		D9EC3DE3233CECBD00CF7646 /* RegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
+		D9EC3DE5233D078100CF7646 /* Assets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
+		D9EC3DE6233D078100CF7646 /* Strings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,9 +102,9 @@
 			children = (
 				D9EC3DD5233CEB3D00CF7646 /* Scenes.swift */,
 				D9EC3DD6233CEB3D00CF7646 /* Segues.swift */,
+				D9EC3DE5233D078100CF7646 /* Assets.swift */,
+				D9EC3DE6233D078100CF7646 /* Strings.swift */,
 				D9EC3DCE233CA7D700CF7646 /* Colors.swift */,
-				D9EC3DC3233C91A000CF7646 /* assets.swift */,
-				D9EC3DC2233C91A000CF7646 /* strings.swift */,
 			);
 			path = SwiftGen;
 			sourceTree = "<group>";
@@ -146,6 +146,7 @@
 				D9EC3DA4233C8F4800CF7646 /* Sources */,
 				D9EC3DA5233C8F4800CF7646 /* Frameworks */,
 				D9EC3DA6233C8F4800CF7646 /* Resources */,
+				D9EC3DE9233D07C200CF7646 /* SwiftGen */,
 			);
 			buildRules = (
 			);
@@ -208,6 +209,27 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		D9EC3DE9233D07C200CF7646 /* SwiftGen */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftGen;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/swiftgen\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D9EC3DA4233C8F4800CF7646 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -215,14 +237,14 @@
 			files = (
 				D9EC3DD7233CEB3E00CF7646 /* Scenes.swift in Sources */,
 				D9EC3DC1233C913C00CF7646 /* swiftgen.yml in Sources */,
+				D9EC3DE8233D078100CF7646 /* Strings.swift in Sources */,
 				D9EC3DCF233CA7D700CF7646 /* Colors.swift in Sources */,
 				D9EC3DD8233CEB3E00CF7646 /* Segues.swift in Sources */,
 				D9EC3DAE233C8F4800CF7646 /* ViewController.swift in Sources */,
 				D9EC3DE2233CEC9500CF7646 /* LoginVC.swift in Sources */,
-				D9EC3DC4233C91A000CF7646 /* strings.swift in Sources */,
 				D9EC3DAC233C8F4800CF7646 /* AppDelegate.swift in Sources */,
-				D9EC3DC5233C91A000CF7646 /* assets.swift in Sources */,
 				D9EC3DE4233CECBD00CF7646 /* RegisterVC.swift in Sources */,
+				D9EC3DE7233D078100CF7646 /* Assets.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -3,12 +3,12 @@ strings:
     filter: .+\.strings$
     outputs:
         - templateName: structured-swift4
-          output: SwiftGen-Example/SwiftGen/strings.swift
+          output: SwiftGen-Example/SwiftGen/Strings.swift
 xcassets:
     inputs: SwiftGen-Example/Assets.xcassets
     outputs:
     - templateName: swift4
-      output: SwiftGen-Example/SwiftGen/assets.swift
+      output: SwiftGen-Example/SwiftGen/Assets.swift
 
 colors:
     inputs: SwiftGen-Example/colors.txt
