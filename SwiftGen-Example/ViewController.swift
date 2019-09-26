@@ -16,7 +16,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         titleLabel.text = L10n.HomeVC.Welcome.title
-        titleLabel.textColor = Asset.Colors.khakiGreen.color
+        //titleLabel.textColor = Asset.Colors.khakiGreen.color
+        titleLabel.textColor = ColorName.firstColor.color
         imageView.image = Asset.Image.image.image
     }
 }

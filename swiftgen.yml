@@ -9,3 +9,9 @@ xcassets:
     outputs:
     - templateName: swift4
       output: SwiftGen-Example/SwiftGen/assets.swift
+
+colors:
+    inputs: SwiftGen-Example/colors.txt
+    outputs:
+        templateName: swift4
+        output: SwiftGen-Example/SwiftGen/Colors.swift

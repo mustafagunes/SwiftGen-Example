@@ -16,6 +16,8 @@
 		D9EC3DC4233C91A000CF7646 /* strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EC3DC2233C91A000CF7646 /* strings.swift */; };
 		D9EC3DC5233C91A000CF7646 /* assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EC3DC3233C91A000CF7646 /* assets.swift */; };
 		D9EC3DCA233C92AF00CF7646 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D9EC3DC8233C92AF00CF7646 /* Localizable.strings */; };
+		D9EC3DCD233CA6E900CF7646 /* colors.txt in Resources */ = {isa = PBXBuildFile; fileRef = D9EC3DCC233CA6E900CF7646 /* colors.txt */; };
+		D9EC3DCF233CA7D700CF7646 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EC3DCE233CA7D700CF7646 /* Colors.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,8 @@
 		D9EC3DC3233C91A000CF7646 /* assets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = assets.swift; sourceTree = "<group>"; };
 		D9EC3DC9233C92AF00CF7646 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
 		D9EC3DCB233C941800CF7646 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		D9EC3DCC233CA6E900CF7646 /* colors.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = colors.txt; sourceTree = "<group>"; };
+		D9EC3DCE233CA7D700CF7646 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +76,7 @@
 				D9EC3DB4233C8F4A00CF7646 /* LaunchScreen.storyboard */,
 				D9EC3DB7233C8F4A00CF7646 /* Info.plist */,
 				D9EC3DC8233C92AF00CF7646 /* Localizable.strings */,
+				D9EC3DCC233CA6E900CF7646 /* colors.txt */,
 			);
 			path = "SwiftGen-Example";
 			sourceTree = "<group>";
@@ -79,6 +84,7 @@
 		D9EC3DBF233C903200CF7646 /* SwiftGen */ = {
 			isa = PBXGroup;
 			children = (
+				D9EC3DCE233CA7D700CF7646 /* Colors.swift */,
 				D9EC3DC3233C91A000CF7646 /* assets.swift */,
 				D9EC3DC2233C91A000CF7646 /* strings.swift */,
 			);
@@ -144,6 +150,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9EC3DCD233CA6E900CF7646 /* colors.txt in Resources */,
 				D9EC3DB6233C8F4A00CF7646 /* LaunchScreen.storyboard in Resources */,
 				D9EC3DCA233C92AF00CF7646 /* Localizable.strings in Resources */,
 				D9EC3DB3233C8F4A00CF7646 /* Assets.xcassets in Resources */,
@@ -159,6 +166,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9EC3DC1233C913C00CF7646 /* swiftgen.yml in Sources */,
+				D9EC3DCF233CA7D700CF7646 /* Colors.swift in Sources */,
 				D9EC3DAE233C8F4800CF7646 /* ViewController.swift in Sources */,
 				D9EC3DC4233C91A000CF7646 /* strings.swift in Sources */,
 				D9EC3DAC233C8F4800CF7646 /* AppDelegate.swift in Sources */,
