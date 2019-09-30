@@ -4,6 +4,7 @@ strings:
     outputs:
         - templateName: structured-swift4
           output: SwiftGen-Example/SwiftGen/Strings.swift
+
 xcassets:
     inputs: SwiftGen-Example/Assets.xcassets
     outputs:
@@ -13,7 +14,7 @@ xcassets:
 colors:
     inputs: SwiftGen-Example/colors.txt
     outputs:
-        templateName: swift4
+      - templateName: swift4
         output: SwiftGen-Example/SwiftGen/Colors.swift
 
 ib:
