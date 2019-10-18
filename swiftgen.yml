@@ -25,3 +25,12 @@ ib:
         output: SwiftGen-Example/SwiftGen/Scenes.swift
       - templateName: segues-swift4
         output: SwiftGen-Example/SwiftGen/Segues.swift
+
+
+# Example for Fonts
+fonts:
+    - inputs: SwiftGen-Example/
+      filter: .+\.ttf$
+      outputs:
+        templateName: swift4
+        output: SwiftGen-Example/SwiftGen/Fonts.swift
