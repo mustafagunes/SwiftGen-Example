@@ -75,6 +75,7 @@
                     <navigationItem key="navigationItem" id="alX-n4-sE4"/>
                     <connections>
                         <outlet property="imageView" destination="MZv-Pz-7zW" id="t80-O7-SCs"/>
+                        <outlet property="segueButton" destination="kAS-ey-MXB" id="XUt-0x-oFh"/>
                         <outlet property="titleLabel" destination="ggO-cg-fTH" id="TDw-fj-EPk"/>
                         <segue destination="qGj-Co-aap" kind="show" identifier="showAuthStoryboard" id="itg-dY-Xn5"/>
                     </connections>
