@@ -36,6 +36,7 @@
 		D9EC3DE4233CECBD00CF7646 /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EC3DE3233CECBD00CF7646 /* RegisterVC.swift */; };
 		D9EC3DE7233D078100CF7646 /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EC3DE5233D078100CF7646 /* Assets.swift */; };
 		D9EC3DE8233D078100CF7646 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EC3DE6233D078100CF7646 /* Strings.swift */; };
+		D9FB656D236C7A26003CBDCE /* AdvancedAnimete.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9FB656C236C7A26003CBDCE /* AdvancedAnimete.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -71,6 +72,7 @@
 		D9EC3DE3233CECBD00CF7646 /* RegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
 		D9EC3DE5233D078100CF7646 /* Assets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
 		D9EC3DE6233D078100CF7646 /* Strings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
+		D9FB656C236C7A26003CBDCE /* AdvancedAnimete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedAnimete.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +130,7 @@
 		D9EC3DAA233C8F4800CF7646 /* SwiftGen-Example */ = {
 			isa = PBXGroup;
 			children = (
+				D9FB656B236C7A14003CBDCE /* Animates */,
 				D9B9A2E22359FBB600076503 /* Font2 */,
 				D9B9A2E12359FBAE00076503 /* Font1 */,
 				D9EC3DDF233CEC8100CF7646 /* ViewControllers */,
@@ -183,6 +186,14 @@
 				D9EC3DE3233CECBD00CF7646 /* RegisterVC.swift */,
 			);
 			path = Auth;
+			sourceTree = "<group>";
+		};
+		D9FB656B236C7A14003CBDCE /* Animates */ = {
+			isa = PBXGroup;
+			children = (
+				D9FB656C236C7A26003CBDCE /* AdvancedAnimete.swift */,
+			);
+			path = Animates;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -303,6 +314,7 @@
 				D9EC3DE2233CEC9500CF7646 /* LoginVC.swift in Sources */,
 				D9EC3DAC233C8F4800CF7646 /* AppDelegate.swift in Sources */,
 				D9B9A2F82359FC1100076503 /* Fonts.swift in Sources */,
+				D9FB656D236C7A26003CBDCE /* AdvancedAnimete.swift in Sources */,
 				D9EC3DE4233CECBD00CF7646 /* RegisterVC.swift in Sources */,
 				D9EC3DE7233D078100CF7646 /* Assets.swift in Sources */,
 			);

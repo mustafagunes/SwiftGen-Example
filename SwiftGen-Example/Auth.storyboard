@@ -37,10 +37,14 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6HF-3x-0dW">
                                 <rect key="frame" x="20" y="792" width="374" height="50"/>
+                                <color key="backgroundColor" red="0.90196078430000004" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="P81-jn-aP6"/>
                                 </constraints>
-                                <state key="normal" title="Segue"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Segue">
+                                    <color key="titleColor" red="0.94509803920000002" green="0.94509803920000002" blue="0.94509803920000002" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="showRegisterTapped:" destination="JTJ-Yk-AXM" eventType="touchUpInside" id="NUD-Y3-Vib"/>
                                 </connections>
@@ -59,6 +63,7 @@
                         <viewLayoutGuide key="safeArea" id="q9s-4d-INs"/>
                     </view>
                     <connections>
+                        <outlet property="segueButton" destination="6HF-3x-0dW" id="NCM-Oy-GqA"/>
                         <segue destination="vbL-R0-xDs" kind="show" identifier="SHOWREGISTER" id="J2j-Ly-O9z"/>
                         <segue destination="xxA-2R-ZVA" kind="show" identifier="backMainStoryboard" id="O6R-R9-8Vc"/>
                     </connections>
